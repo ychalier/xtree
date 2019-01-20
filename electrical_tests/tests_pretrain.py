@@ -5,7 +5,7 @@ from skmultiflow.data.file_stream import FileStream
 from hatt import HATT
 
 # 1. Create a stream
-dataset = "result_elec"
+dataset = "elec"
 
 stream = FileStream("./"+dataset+".csv", n_targets=1, target_idx=-1)
 # 2. Prepare for use

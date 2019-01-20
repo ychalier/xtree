@@ -5,7 +5,7 @@ from skmultiflow.data.file_stream import FileStream
 
 from hatt import HATT
 
-dataset = "result_elec"
+dataset = "elec"
 
 # 1. Create a stream
 
