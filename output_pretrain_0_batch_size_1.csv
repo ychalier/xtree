@@ -1,0 +1,16 @@
+# TEST CONFIGURATION BEGIN
+# RandomTreeGenerator: _original_tree_random_state: 0 - _original_sample_random_state: 0 - n_classes: 2 - n_nominal_attributes: 5 - n_numerical_attributes: 5 - n_values_per_nominal_attribute: 5 - max_depth: 5 - min_leaf_depth: 3 - fraction_leaves_per_level: 0.15
+# [HT] HoeffdingTree: max_byte_size: 33554432 - memory_estimate_period: 1000000 - grace_period: 200 - split_criterion: info_gain - split_confidence: 1e-07 - tie_threshold: 0.05 - binary_split: False - stop_mem_management: False - remove_poor_atts: False - no_pre_prune: False - leaf_prediction: nba - nb_threshold: 0 - nominal_attributes: [] - 
+# [HATT] HATT: max_byte_size: 33554432 - memory_estimate_period: 1000000 - grace_period: 200 - split_criterion: info_gain - split_confidence: 1e-07 - tie_threshold: 0.05 - binary_split: False - stop_mem_management: False - remove_poor_atts: False - no_pre_prune: False - leaf_prediction: nba - nb_threshold: 0 - nominal_attributes: [] - 
+# Prequential Evaluator: n_wait: 200 - max_samples: 20000 - max_time: inf - output_file: output_pretrain_0_batch_size_1.csv - batch_size: 1 - pretrain_size: 0 - task_type: classification - show_plot: True - metrics: ['accuracy', 'kappa']
+# TEST CONFIGURATION END
+id,mean_acc_[HT],current_acc_[HT],mean_acc_[HATT],current_acc_[HATT],mean_kappa_[HT],current_kappa_[HT],mean_kappa_[HATT],current_kappa_[HATT]
+199,0.525000,0.525000,0.530000,0.530000,0.030612,0.030612,0.020833,0.020833
+399,0.545000,0.565000,0.530000,0.530000,0.044118,0.048348,-0.022851,-0.077487
+599,0.578333,0.645000,0.521667,0.505000,0.127486,0.282103,-0.020989,-0.017472
+799,0.595000,0.645000,0.516250,0.500000,0.160290,0.260417,-0.035493,-0.075731
+999,0.594000,0.590000,0.517000,0.520000,0.163318,0.170712,-0.028115,0.000000
+1199,0.586667,0.550000,0.536667,0.635000,0.149918,0.087684,0.010265,0.205658
+1399,0.590000,0.610000,0.541429,0.570000,0.154484,0.181102,0.015797,0.051715
+1599,0.597500,0.650000,0.550625,0.615000,0.171205,0.286297,0.035077,0.171330
+1799,0.598889,0.610000,0.557222,0.610000,0.177218,0.216474,0.053931,0.198767
