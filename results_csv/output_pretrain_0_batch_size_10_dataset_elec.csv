@@ -1,0 +1,7 @@
+# TEST CONFIGURATION BEGIN
+# File Stream: filename: elec.csv  -  n_targets: 1
+# [HT] HoeffdingTree: max_byte_size: 33554432 - memory_estimate_period: 1000000 - grace_period: 200 - split_criterion: info_gain - split_confidence: 1e-07 - tie_threshold: 0.05 - binary_split: False - stop_mem_management: False - remove_poor_atts: False - no_pre_prune: False - leaf_prediction: nba - nb_threshold: 0 - nominal_attributes: [] - 
+# [HATT] HATT: max_byte_size: 33554432 - memory_estimate_period: 1000000 - grace_period: 200 - split_criterion: info_gain - split_confidence: 1e-07 - tie_threshold: 0.05 - binary_split: False - stop_mem_management: False - remove_poor_atts: False - no_pre_prune: False - leaf_prediction: nba - nb_threshold: 0 - nominal_attributes: [] - 
+# Prequential Evaluator: n_wait: 200 - max_samples: 20000 - max_time: inf - output_file: output_pretrain_0_batch_size_10_dataset_elec.csv - batch_size: 10 - pretrain_size: 0 - task_type: classification - show_plot: False - metrics: ['accuracy', 'kappa']
+# TEST CONFIGURATION END
+id,mean_acc_[HT],current_acc_[HT],mean_acc_[HATT],current_acc_[HATT],mean_kappa_[HT],current_kappa_[HT],mean_kappa_[HATT],current_kappa_[HATT]
