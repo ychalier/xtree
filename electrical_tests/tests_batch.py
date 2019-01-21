@@ -19,7 +19,7 @@ h = [
 	HATT(),
 ]
 
-for i in range(0,100,10):
+for i in range(1,100,10):
 	evaluator = EvaluatePrequential(
 	    pretrain_size=0,
 	    show_plot=True,

@@ -1,0 +1,21 @@
+# TEST CONFIGURATION BEGIN
+# File Stream: filename: elec.csv  -  n_targets: 1
+# [HT] HoeffdingTree: max_byte_size: 33554432 - memory_estimate_period: 1000000 - grace_period: 200 - split_criterion: info_gain - split_confidence: 1e-07 - tie_threshold: 0.05 - binary_split: False - stop_mem_management: False - remove_poor_atts: False - no_pre_prune: False - leaf_prediction: nba - nb_threshold: 0 - nominal_attributes: [] - 
+# [HATT] HATT: max_byte_size: 33554432 - memory_estimate_period: 1000000 - grace_period: 200 - split_criterion: info_gain - split_confidence: 1e-07 - tie_threshold: 0.05 - binary_split: False - stop_mem_management: False - remove_poor_atts: False - no_pre_prune: False - leaf_prediction: nba - nb_threshold: 0 - nominal_attributes: [] - 
+# Prequential Evaluator: n_wait: 200 - max_samples: 20000 - max_time: inf - output_file: output_pretrain_0_batch_size_21_dataset_elec.csv - batch_size: 21 - pretrain_size: 0 - task_type: classification - show_plot: True - metrics: ['accuracy', 'kappa']
+# TEST CONFIGURATION END
+id,mean_acc_[HT],current_acc_[HT],mean_acc_[HATT],current_acc_[HATT],mean_kappa_[HT],current_kappa_[HT],mean_kappa_[HATT],current_kappa_[HATT]
+189,0.614286,0.615000,0.809524,0.820000,0.206401,0.211550,0.617347,0.639567
+399,0.657143,0.725000,0.830952,0.845000,0.310156,0.465500,0.655547,0.682051
+588,0.656814,0.645000,0.788177,0.705000,0.323423,0.327524,0.565503,0.385673
+798,0.702076,0.830000,0.815629,0.905000,0.410315,0.645094,0.628098,0.807497
+987,0.696429,0.690000,0.813492,0.810000,0.396610,0.348534,0.626160,0.617591
+1197,0.725780,0.890000,0.817734,0.830000,0.460341,0.624317,0.624765,0.329653
+1386,0.756930,0.945000,0.827292,0.870000,0.517093,0.852941,0.635082,0.617928
+1596,0.784168,0.965000,0.835498,0.885000,0.564813,0.906116,0.645446,0.702996
+1785,0.776301,0.725000,0.825028,0.750000,0.554525,0.467158,0.630937,0.509275
+1995,0.782738,0.840000,0.813492,0.740000,0.566762,0.670782,0.603534,0.387370
+2184,0.781406,0.775000,0.810884,0.755000,0.558830,0.422040,0.590592,0.279624
+2394,0.770600,0.670000,0.792547,0.605000,0.534512,0.386902,0.556612,0.255560
+2583,0.774194,0.825000,0.790707,0.755000,0.542454,0.650838,0.552181,0.462248
+2793,0.772921,0.755000,0.784293,0.710000,0.538764,0.503445,0.542580,0.419071
