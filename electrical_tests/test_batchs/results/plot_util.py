@@ -7,7 +7,7 @@
 import os 
 import pandas
 import seaborn as sns
-get_ipython().magic(u'matplotlib inline')
+#get_ipython().magic(u'matplotlib inline')
 import matplotlib
 import matplotlib.pyplot as plt
 from skmultiflow.visualization.evaluation_visualizer import EvaluationVisualizer
