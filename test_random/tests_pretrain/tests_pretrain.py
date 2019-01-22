@@ -18,7 +18,7 @@ h = [
 for i in range(0,10000,1000):
 	evaluator = EvaluatePrequential(
 	    pretrain_size=i,
-	    show_plot=True,
+	    show_plot=False,
 	    max_samples=20000,
 	    metrics=['accuracy','kappa'],
 	    batch_size=1,

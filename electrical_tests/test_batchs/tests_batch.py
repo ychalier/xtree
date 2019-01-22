@@ -9,7 +9,7 @@ dataset = "elec"
 
 # 1. Create a stream
 
-stream = FileStream("./"+dataset+".csv", n_targets=1, target_idx=-1)
+stream = FileStream("../"+dataset+".csv", n_targets=1, target_idx=-1)
 # 2. Prepare for use
 stream.prepare_for_use()
 
@@ -22,7 +22,7 @@ h = [
 for i in range(1,100,10):
 	evaluator = EvaluatePrequential(
 	    pretrain_size=0,
-	    show_plot=True,
+	    show_plot=False,
 	    max_samples=20000,
 	    metrics=['accuracy','kappa'],
 	    batch_size=i,
