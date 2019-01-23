@@ -1,8 +1,0 @@
-# TEST CONFIGURATION BEGIN
-# Waveform Generator: n_classes: 3  -  n_num_features: 21  -  n_cat_features: 0  -  has_noise: False  -  random_state: None
-# [HT] HoeffdingTree: max_byte_size: 33554432 - memory_estimate_period: 1000000 - grace_period: 200 - split_criterion: info_gain - split_confidence: 1e-07 - tie_threshold: 0.05 - binary_split: False - stop_mem_management: False - remove_poor_atts: False - no_pre_prune: False - leaf_prediction: nba - nb_threshold: 0 - nominal_attributes: [] - 
-# [HATT] HATT: max_byte_size: 33554432 - memory_estimate_period: 1000000 - grace_period: 200 - split_criterion: info_gain - split_confidence: 1e-07 - tie_threshold: 0.05 - binary_split: False - stop_mem_management: False - remove_poor_atts: False - no_pre_prune: False - leaf_prediction: nba - nb_threshold: 0 - nominal_attributes: [] - 
-# Prequential Evaluator: n_wait: 200 - max_samples: 20000 - max_time: inf - output_file: ouput_batch_size_2_pretrain_0_waveform.csv - batch_size: 2 - pretrain_size: 0 - task_type: classification - show_plot: True - metrics: ['accuracy']
-# TEST CONFIGURATION END
-id,mean_acc_[HT],current_acc_[HT],mean_acc_[HATT],current_acc_[HATT]
-198,0.785000,0.785000,0.565000,0.565000
